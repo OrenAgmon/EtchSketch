@@ -1,0 +1,48 @@
+ #grid-container{
+    width: 500px;
+    height: 500px;
+ 
+    display: grid;
+
+    
+}
+
+
+/* .grid-cell{
+    border: solid 1px black;
+    
+} */
+
+.grid-cell :hover{
+    background-color: grey;
+}
+
+#title{
+    text-align: center;
+    opacity: 0.2;
+
+}
+
+#grid-segment{
+    display: flex;
+    justify-content: center;
+} 
+
+.options-segment{
+    display: flex;
+    align-items: center;
+    
+    align-content: center;
+    justify-content: center;
+}
+
+#slider{
+    margin: 0px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-top: 10px;
+}
+#slider-value{
+    margin: 5px;
+}
