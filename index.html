@@ -8,24 +8,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<h1 id="title">Etch a Sketch</h1>
+    <h1 id="title">Etch-a-Sketch</h1>
 
 <div id="grid-segment">
+    
+    <div class="options-segment">
+
+        
+        <input type="color" id="color-picker" value="#ff0000">
+
+            <button id="btn-grey" class="optinos">Gray</button>
+            <button id="btn-restart" class="options">Restart</button>
+            <button id="btn-eraser" class="options">Eraser</button>
+            <button id="btn-rainbow" class="options">Rainbow</button>
+            <div id="slider-segment">
+                <input type="range" min="1" max="50" id="slider" value="10">
+                <p id="slider-value">10 X 10</p>
+                </div>
+        
+    </div>
     <div id="grid-container">
     </div>  
-</div>
-<div class="options-segment">
-
-    <div id="slider-segment">
-    <input type="range" min="1" max="100" id="slider" value="10">
-    <p id="slider-value">10 X 10</p>
-    </div>
-    
-        <button id="btn-grey" class="optinos">Gray</button>
-        <button id="btn-restart" class="options">Restart</button>
-        <button id="btn-eraser" class="options">Eraser</button>
-        <button id="btn-rainbow" class="options">Rainbow</button>
-    
 </div>
 
 
